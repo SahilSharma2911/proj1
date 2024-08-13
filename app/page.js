@@ -1,12 +1,13 @@
-import Header from "@/components/Home/Header";
-import Section1 from "@/components/Home/Section1";
-import Image from "next/image";
+import Hero from "@/components/Home/Hero";
+import PinRecovery from "@/components/Home/PinRecovery";
+import ProblemStatement from "@/components/Home/ProblemStatement";
 
 export default function Home() {
   return (
     <main className="font-sans">
-      <Header />
-      <Section1 />
+      <Hero />
+      <ProblemStatement />
+      <PinRecovery />
     </main>
   );
 }

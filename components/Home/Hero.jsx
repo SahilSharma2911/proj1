@@ -3,7 +3,7 @@ import ExplorePlan from "../Button/ExplorePlan";
 import LearnMore from "../Button/LearnMore";
 import Image from "next/image";
 
-const Header = () => {
+const Hero = () => {
   return (
     <section className="font-sans bg-[#1B1714] h-screen items-center lg:items-end justify-center w-full flex">
       <div className="flex flex-col lg:flex-row gap-10 md:gap-16 lg:gap-4 items-center justify-between  text-center lg:text-start px-[2rem] lg:px-[6rem] py-10 lg:mb-[4%] w-full">
@@ -33,4 +33,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;
