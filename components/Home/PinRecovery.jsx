@@ -17,7 +17,7 @@ const PinRecovery = () => {
           industry. Lorem Ipsum has been the industry&apos;s standard dummy
         </p>
       </div>
-      <div className="lg:p-8 bg-[#383029] max-w-[630px] mt-8 md:mt-14 rounded-xl">
+      <div className="lg:p-8 bg-[#383029] max-w-[630px] mt-10 md:mt-14 rounded-xl">
         <Image
           src={"/Images/b2.png"}
           width={600}
@@ -25,7 +25,7 @@ const PinRecovery = () => {
           className="w-[400px] md:w-[500px] lg:w-[600px]"
         />
       </div>
-      <div className="mt-8 md:mt-14">
+      <div className="mt-12 md:mt-14">
         <LearnMore />
       </div>
     </section>
