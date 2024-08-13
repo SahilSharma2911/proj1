@@ -39,7 +39,6 @@ const ProblemStatement = () => {
                 width={600}
                 height={600}
                 alt={item.title}
-                className="w-[600px]"
               />
             </div>
             <div className="mt-6 lg:mt-0">
