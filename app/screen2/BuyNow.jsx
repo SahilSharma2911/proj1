@@ -9,7 +9,7 @@ const BuyNow = () => {
           <h2 className="font-medium text-[20px] md:text-[34px] lg:text-[40px] leading-[28px] md:leading-[45px] lg:leading-[52px]">
             Lorem Ipsum is simply dummy
           </h2>
-          <p className="text-[22px] md:text-[24px] lg:text-[28px] leading-[28.6px] lg:leading-[36.5px] text-[#8B8682] mt-2">
+          <p className="text-[16px] md:text-[24px] lg:text-[28px] leading-[28.6px] lg:leading-[36.5px] text-[#8B8682] mt-2">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum
           </p>
