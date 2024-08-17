@@ -4,11 +4,11 @@ import LearnMore from "../Button/LearnMore";
 
 const PinRecovery = () => {
   return (
-    <section className="px-[2rem] lg:px-[6rem] py-[3rem] lg:py-[5.5rem] bg-[#000000] text-[#FFFFFF] w-full flex flex-col items-center">
+    <section className="font-sans px-[2rem] lg:px-[6rem] py-[3rem] lg:py-[5.5rem] bg-[#000000] text-[#FFFFFF] w-full flex flex-col items-center">
       <div>
-        <h2 className="text-[20px] md:text-[34px] lg:text-[40px] leading-[26px] md:leading-[44px] lg:leading-[52px] text-center">
+        <h2 className="text-[20px] md:text-[34px] lg:text-[40px] leading-[26px] md:leading-[44px] lg:leading-[52px] text-center font-bold">
           Section to be decided based on the recovery{" "}
-          <b className="bg-gradient-to-r from-[#E9B873] via-[#FEDD8F] to-[#B78D51] text-transparent bg-clip-text">
+          <b className="bg-gradient-to-r from-[#E9B873] via-[#FEDD8F] to-[#B78D51] text-transparent bg-clip-text font-bold">
             Lorem Ipsum
           </b>
         </h2>

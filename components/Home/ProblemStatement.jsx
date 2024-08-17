@@ -20,8 +20,8 @@ const sectionData = [
 
 const ProblemStatement = () => {
   return (
-    <section className="px-[2rem] lg:px-[6rem] py-[3rem] lg:py-[5.5rem] bg-[#120F0C] text-[#FFFFFF]">
-      <h2 className="max-w-[800px] text-[20px] md:text-[34px] lg:text-[40px] leading-[26px] md:leading-[44px] lg:leading-[52px] text-center mx-auto">
+    <section className="font-sans px-[2rem] lg:px-[6rem] py-[3rem] lg:py-[5.5rem] bg-[#120F0C] text-[#FFFFFF]">
+      <h2 className="max-w-[800px] text-[20px] md:text-[34px] lg:text-[40px] leading-[26px] md:leading-[44px] lg:leading-[52px] text-center mx-auto font-bold">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the
       </h2>
@@ -42,7 +42,7 @@ const ProblemStatement = () => {
               />
             </div>
             <div className="mt-6 lg:mt-0">
-              <h3 className="text-[20px] md:text-[34px] lg:text-[40px] leading-[26px] md:leading-[44px] lg:leading-[52px]">
+              <h3 className="text-[20px] md:text-[34px] lg:text-[40px] leading-[26px] md:leading-[44px] lg:leading-[52px] font-bold">
                 {item.title}
               </h3>
               <p className="text-[18px] md:text-[24px] leading-[23.5px] md:leading-[31.5px] text-[#8B8682] mt-2">

@@ -48,8 +48,8 @@ const benefitData = [
 
 const Benifits = () => {
   return (
-    <section className="px-[2rem] lg:px-[6rem] py-[3rem] lg:py-[5.5rem] bg-[#161211] text-[#FFFFFF] w-full flex flex-col items-center">
-      <h2 className="text-[20px] max-w-[1170px] mx-auto md:text-[34px] lg:text-[40px] leading-[26px] md:leading-[44px] lg:leading-[52px] text-center text-[#FFFFFF]">
+    <section className="font-sans px-[2rem] lg:px-[6rem] py-[3rem] lg:py-[5.5rem] bg-[#161211] text-[#FFFFFF] w-full flex flex-col items-center">
+      <h2 className="font-bold text-[20px] max-w-[1170px] mx-auto md:text-[34px] lg:text-[40px] leading-[26px] md:leading-[44px] lg:leading-[52px] text-center text-[#FFFFFF]">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum
       </h2>
