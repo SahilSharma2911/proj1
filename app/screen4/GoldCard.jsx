@@ -3,8 +3,10 @@ import React from "react";
 
 const GoldCard = () => {
   return (
-    <div className="font-poppins bg-[#272320] lg:w-1/3 p-6 rounded-xl shadow-2xl border-[#B78D51] border relative">
-      <div className="absolute top-0 right-7 font-semibold text-[14px] bg-gradient-to-r from-[#E9B873] via-[#FEDD8F] to-[#B78D51] px-4 py-1 rounded-b-lg">MOST POPULAR</div>
+    <div className="font-poppins bg-[#272320] max-w-[400px] p-6 rounded-xl shadow-2xl border-[#B78D51] border relative">
+      <div className="absolute top-0 right-7 font-semibold text-[14px] bg-gradient-to-r from-[#E9B873] via-[#FEDD8F] to-[#B78D51] px-4 py-1 rounded-b-lg">
+        MOST POPULAR
+      </div>
       <div className="border-[#655F53] border-b text-start pb-8">
         <h2 className="text-[30px] leading-[45px] font-bold bg-gradient-to-r from-[#E9B873] via-[#FEDD8F] to-[#B78D51] text-transparent bg-clip-text">
           Gold

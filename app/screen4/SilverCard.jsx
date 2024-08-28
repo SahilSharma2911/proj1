@@ -3,7 +3,7 @@ import React from "react";
 
 const SilverCard = () => {
   return (
-    <div className="font-poppins bg-[#272320] lg:w-1/3 p-6 rounded-xl shadow-2x border-[#1B1714] border ">
+    <div className="font-poppins bg-[#272320] max-w-[400px] p-6 rounded-xl shadow-2x border-[#1B1714] border ">
       <div className="border-[#655F53] border-b text-start pb-8">
         <h2 className="text-[30px] leading-[45px] font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#A2ADB3] via-[#F3F1F2] to-[#BCC3C9]">
           Silver
