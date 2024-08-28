@@ -1,50 +1,17 @@
-import LearnMore from "@/components/Button/LearnMore";
 import Image from "next/image";
 import React from "react";
 
-const stepsData = [
-  {
-    id: 1,
-    title: "Lorem Ipsum is simply dummy text of",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
-    imageSrc: "/Images/demo.png",
-  },
-  {
-    id: 2,
-    title: "Lorem Ipsum is simply dummy text of",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
-    imageSrc: "/Images/demo.png",
-  },
-  {
-    id: 3,
-    title: "Lorem Ipsum is simply dummy text of",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
-    imageSrc: "/Images/demo.png",
-  },
-  {
-    id: 4,
-    title: "Lorem Ipsum is simply dummy text of",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
-    imageSrc: "/Images/demo.png",
-  },
-];
-
-const StepByStep = () => {
+const StepByStep = ({ stepsData, heading }) => {
   return (
-    <section className="font-sans px-[2rem] lg:px-[6rem] py-[3rem] lg:py-[5.5rem] bg-[#221B17] text-[#FFFFFF] w-full items-center flex-col flex">
+    <section className="font-sans px-[2rem] lg:px-[6rem] py-[3rem] lg:py-[5.5rem] bg-[#33312D] text-[#FFFFFF] w-full items-center flex-col flex">
       <div>
         <h2 className="text-[20px] max-w-[1170px] mx-auto font-bold md:text-[34px] lg:text-[40px] leading-[26px] md:leading-[44px] lg:leading-[52px] text-center bg-gradient-to-r from-[#E9B873] via-[#FEDD8F] to-[#B78D51] text-transparent bg-clip-text">
-          Lorem Ipsum is simply dummy text of the printing and Lorem Ipsum Lorem
-          Ipsum
+          {heading}
         </h2>
-        <p className="text-[18px] md:text-[24px] leading-[23.5px] md:leading-[31.5px] text-[#8B8682] mt-4 text-center">
+        {/* <p className="text-[18px] md:text-[24px] leading-[23.5px] md:leading-[31.5px] text-[#8B8682] mt-4 text-center">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry&apos;s standard dummy
-        </p>
+        </p> */}
       </div>
 
       {stepsData.map((step, index) => (

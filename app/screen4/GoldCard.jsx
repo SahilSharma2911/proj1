@@ -3,7 +3,8 @@ import React from "react";
 
 const GoldCard = () => {
   return (
-    <div className="font-poppins bg-[#272320] lg:w-1/3 p-6 rounded-xl shadow-2xl border-[#B78D51] border" >
+    <div className="font-poppins bg-[#272320] lg:w-1/3 p-6 rounded-xl shadow-2xl border-[#B78D51] border relative">
+      <div className="absolute top-0 right-7 font-semibold text-[14px] bg-gradient-to-r from-[#E9B873] via-[#FEDD8F] to-[#B78D51] px-4 py-1 rounded-b-lg">MOST POPULAR</div>
       <div className="border-[#655F53] border-b text-start pb-8">
         <h2 className="text-[30px] leading-[45px] font-bold bg-gradient-to-r from-[#E9B873] via-[#FEDD8F] to-[#B78D51] text-transparent bg-clip-text">
           Gold
@@ -42,6 +43,9 @@ const GoldCard = () => {
           <p className="bg-gradient-to-r from-[#E9B873] via-[#FEDD8F] to-[#B78D51] text-transparent bg-clip-text">
             Some Value
           </p>
+        </div>
+        <div className="text-white text-[20px] leading-[30px] flex gap-6 items-center">
+          <Image src={"/Images/right.png"} width={25} height={25} /> Some Value
         </div>
       </div>
       <div className="flex mt-4">

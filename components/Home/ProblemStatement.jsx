@@ -9,13 +9,13 @@ const sectionData = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum",
   },
-  {
-    id: 2,
-    imgSrc: "/Images/b1.png",
-    title: "Lorem Ipsum",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum",
-  },
+  // {
+  //   id: 2,
+  //   imgSrc: "/Images/b1.png",
+  //   title: "Lorem Ipsum",
+  //   description:
+  //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum",
+  // },
 ];
 
 const ProblemStatement = () => {
@@ -25,7 +25,7 @@ const ProblemStatement = () => {
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the
       </h2>
-      <div className="mt-10 md:mt-16 lg:mt-24 flex gap-5 md:gap-10 flex-col lg:flex-row">
+      <div className="mt-10 md:mt-16 lg:mt-24 flex gap-5 md:gap-10 flex-col lg:flex-row justify-center">
         {sectionData.map((item, index) => (
           <div
             key={item.id}
